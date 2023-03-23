@@ -4,14 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bae92ebe-1d9c-4e8c-b4a8-2f7e82c3f594" name="Changes" comment="">
+    <list default="true" id="bae92ebe-1d9c-4e8c-b4a8-2f7e82c3f594" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/client/src/Skeleton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Canvas.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Canvas.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SettingBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SettingBar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Toolbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Toolbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/store/CanvasState.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/CanvasState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/ToolState.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/ToolState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/tools/Erase.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/tools/Erase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/tools/Brush.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/tools/Brush.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/tools/Rect.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/tools/Rect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/tools/Tool.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/tools/Tool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serv/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/serv/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serv/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/serv/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serv/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/serv/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/serv/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,21 +37,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ivan/WebstormProjects/paint",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;19.7.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.15.3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ivan/WebstormProjects/CW&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -64,8 +77,30 @@
       <option name="presentableId" value="Default" />
       <updated>1678979825238</updated>
       <workItem from="1678979826295" duration="8678000" />
-      <workItem from="1679140817352" duration="4788000" />
+      <workItem from="1679140817352" duration="7155000" />
+      <workItem from="1679222215410" duration="235000" />
+      <workItem from="1679222651135" duration="114000" />
+      <workItem from="1679222772445" duration="7053000" />
+      <workItem from="1679501093719" duration="1893000" />
+      <workItem from="1679524415716" duration="138000" />
+      <workItem from="1679524569919" duration="14000" />
+      <workItem from="1679581988173" duration="1377000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1679146632753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679146632753</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <created>1679146959176</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679146959176</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +128,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
